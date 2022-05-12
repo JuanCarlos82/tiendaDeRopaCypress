@@ -22,4 +22,5 @@ describe ('Search elements',()=>{
             cy.get(searchResult.alert).should('contain','No results');
             })
     })
+    
 })
